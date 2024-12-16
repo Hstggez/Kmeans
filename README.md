@@ -13,4 +13,4 @@ Highlghts: 1.initKMeans++ O(nlogn) implementation where normal rand kmeans is no
           4. In pure C to provide speed.
           5.Self adjusted K for optimal results as well as combined k elbow implementations and theoretical best wcss with limits MAX limit to K
           
-[image](https://github.com/user-attachments/assets/3ed466fa-90c6-4784-9720-557dc79d2b1a)
+![image](https://github.com/user-attachments/assets/3ed466fa-90c6-4784-9720-557dc79d2b1a)
