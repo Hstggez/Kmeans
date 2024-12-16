@@ -7,9 +7,6 @@ to compile: gcc -lrt kmeansv1.c -o kmeans -lm -lpthread
 no warnings
 
 Highlghts: 1.initKMeans++ O(nlogn) implementation where normal rand kmeans is not scientific and applicable due to some undefined behavior by rand() (its always predefined interms of predicability and undefined in terms of the effect you wan to achieve)
-              |
-              |
-              v
               with this we dont need n^2 imeplementation and can make it as efficient as possible
           2.Pure hand written imeplementation of the vannilla version of kmeans WITH pthread(which took me hours to finish and days to debug)
 
