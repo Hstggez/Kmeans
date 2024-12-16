@@ -12,7 +12,7 @@ Highlghts:
             with this we dont need n^2 imeplementation and can make it as efficient as possible
 
               
-          2.Pure hand written imeplementation of the vannilla version of kmeans WITH pthread(which took me hours to finish and days to debug)
+          2.Originally Pure hand written imeplementation of the vannilla version of kmeans WITH pthread(which took me hours to finish and days to debug 1year ago)
 
           
           3.cpu multithreaded for aided speed
