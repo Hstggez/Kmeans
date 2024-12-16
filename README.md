@@ -5,7 +5,7 @@ Pthread multi-threaded, efficient Kmeans with Kmeans++ initializations as well a
 
 to compile: gcc -lrt kmeansv1.c -o kmeans -lm -lpthread
 no warnings
-
+if it works, don't fix it lol
 Highlghts:
 
           1.initKMeans++ O(nlogn) implementation where normal rand kmeans is not scientific and applicable due to some undefined behavior by rand() (its always predefined interms of predicability and undefined in terms of the effect you wan to achieve)
