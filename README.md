@@ -4,6 +4,7 @@ Due to EC2's limits, it ain't no quatum computer, I use this piece of code in C 
 Pthread multi-threaded, efficient Kmeans with Kmeans++ initializations as well as elbow method to determine the best k possible all in one piece of code. that can be ran on linux as a single executable
 
 to compile: gcc -lrt kmeansv1.c -o kmeans -lm -lpthread
+
 no warnings
 
 if it works, don't fix it lol
