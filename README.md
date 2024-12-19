@@ -3,7 +3,11 @@ Due to EC2's limits, it ain't no quatum computer, I use this piece of code in C 
 
 Pthread multi-threaded, efficient Kmeans with Kmeans++ initializations as well as elbow method to determine the best k possible all in one piece of code. that can be ran on linux as a single executable
 
-to simply compile: gcc kmeansv1.c -o kmeans -lm -lpthread
+to simply compile: 
+
+gcc kmeansv1.c -o kmeans -lm -lpthread
+
+
 
 gcc -lrt kmeansv1.c -o kmeans -lm -lpthread for realtime liberary linking which includes: clock_gettime and stuff which we don't need for this purpose and no POSIX real-time stuff used in this project
 no warnings
